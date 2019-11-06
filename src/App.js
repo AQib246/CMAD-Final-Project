@@ -38,7 +38,7 @@ const listitems = [
     pic: "/images/pic1.jpg",
     Model: "Ninja H2",
     Price: "Rs:850,000/-",
-    EngineDis: " 600 CC Double Cylinder",
+    EngineDis: " 1000 CC Double Cylinder",
     MaxPower: "47.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
@@ -89,6 +89,60 @@ const listitems = [
   {
     id: 3,
     pic: "/images/pic4.jpg",
+    Model: "Yamaha R1",
+    Price: "Rs:680,000/-",
+    
+    EngineDis: " 250 CC Single Cylinder",
+    MaxPower: "47.5 Hp",
+    TyresSize: "160/70-17 120/70-17",
+    Brakes: "ABS Disk Breaks",
+    FuelSyestem: "Electrical Fuel Injection (EFI)",
+    MaxSpeed: "200 Km/H",
+    Condition: "Used",
+    FuelCapacity: "15 Litre",
+    SellerCellNo: "0315-1234567"
+
+
+  },
+  {
+    id: 4,
+    pic: "/images/pic12.jpg",
+    Model: "Suzuki GSXR",
+    Price: "Rs:450,000/-",
+    
+    EngineDis: " 1000 CC Double Cylinder",
+    MaxPower: "50.5 Hp",
+    TyresSize: "160/70-17 120/70-17",
+    Brakes: "ABS Disk Breaks",
+    FuelSyestem: "Electrical Fuel Injection (EFI)",
+    MaxSpeed: "400 Km/H",
+    Condition: "New",
+    FuelCapacity: "19 Litre",
+    SellerCellNo: "0315-1234567"
+
+
+  },
+  {
+    id: 5,
+    pic: "/images/pic 9.jpg",
+    Model: "Kawasaki H2R",
+    Price: "Rs:380,000/-",
+    
+    EngineDis: " 250 CC Single Cylinder",
+    MaxPower: "47.5 Hp",
+    TyresSize: "160/70-17 120/70-17",
+    Brakes: "ABS Disk Breaks",
+    FuelSyestem: "Electrical Fuel Injection (EFI)",
+    MaxSpeed: "230 Km/H",
+    Condition: "Used",
+    FuelCapacity: "15 Litre",
+    SellerCellNo: "0315-1234567"
+
+
+  },
+  {
+    id: 6,
+    pic: "/images/pic7.jpg",
     Model: "Kawasaki H2",
     Price: "Rs:380,000/-",
     
@@ -105,84 +159,30 @@ const listitems = [
 
   },
   {
-    id: 4,
-    pic: "/images/pic5.jpg",
-    Model: "Kawasaki Ninja ",
-    Price: "Rs:250,000/-",
-    
-    EngineDis: " 600 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
-    TyresSize: "160/70-17 120/70-17",
-    Brakes: "ABS Disk Breaks",
-    FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
-    Condition: "New",
-    FuelCapacity: "14 Litre",
-    SellerCellNo: "0315-1234567"
-
-
-  },
-  {
-    id: 5,
-    pic: "/images/pic6.jpg",
-    Model: "Yamaha MT-10",
-    Price: "Rs:640,000/-",
-    
-    EngineDis: " 350 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
-    TyresSize: "160/70-17 120/70-17",
-    Brakes: "ABS Disk Breaks",
-    FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
-    Condition: "Used",
-    FuelCapacity: "15 Litre",
-    SellerCellNo: "0315-1234567"
-
-
-  },
-  {
-    id: 6,
-    pic: "/images/pic7.jpg",
-    Model: "Yamaha MT-07",
-    Price: "Rs:320,000/-",
-    
-    EngineDis: " 1000 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
-    TyresSize: "160/70-17 120/70-17",
-    Brakes: "ABS Disk Breaks",
-    FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
-    Condition: "Used",
-    FuelCapacity: "14 Litre",
-    SellerCellNo: "0315-1234567"
-
-
-  },
-  {
     id: 7,
     pic: "/images/pic8.jpg",
-    Model: "Kawasaki Z800",
-    Price: "Rs:260,000/-",
+    Model: "Kawasaki H2",
+    Price: "Rs:380,000/-",
     
-    EngineDis: " 600 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
+    EngineDis: " 1000 CC Double Cylinder",
+    MaxPower: "49.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
     FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
+    MaxSpeed: "300 Km/H",
     Condition: "Used",
-    FuelCapacity: "17 Litre",
+    FuelCapacity: "13.5 Litre",
     SellerCellNo: "0315-1234567"
 
 
   },
   {
     id: 8,
-    pic: "/images/pic9.jpg",
-    Model: "Honda Crf-540",
-    Price: "Rs:820,000/-",
+    pic: "/images/pic13.jpg",
+    Model: "Ducati 600",
+    Price: "Rs:50,000/-",
     
-    EngineDis: " 300 CC Double Cylinder",
+    EngineDis: " 600 CC Single Cylinder",
     MaxPower: "47.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
@@ -197,26 +197,26 @@ const listitems = [
   {
     id: 9,
     pic: "/images/pic10.jpg",
-    Model: "Ducati 1200S",
-    Price: "Rs:530,000/-",
+    Model: "Kawasaki H2R",
+    Price: "Rs:2080,000/-",
     
-    EngineDis: " 250 CC Single Cylinder",
+    EngineDis: " 1000 CC Dounle Cylinder",
     MaxPower: "47.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
     FuelSyestem: "Electrical Fuel Injection (EFI)",
     MaxSpeed: "200 Km/H",
-    Condition: "Used",
-    FuelCapacity: "10 Litre",
+    Condition: "New",
+    FuelCapacity: "16 Litre",
     SellerCellNo: "0315-1234567"
 
 
   },
   {
     id: 10,
-    pic: "/images/pic11.jfif",
-    Model: "Suzuki GSX",
-    Price: "Rs:1240,000/-",
+    pic: "/images/pic14.jpg",
+    Model: "BMW 1000RR",
+    Price: "Rs:155,000/-",
     
     EngineDis: " 1000 CC Double Cylinder",
     MaxPower: "47.5 Hp",
@@ -232,35 +232,35 @@ const listitems = [
   },
   {
     id: 11,
-    pic: "/images/pic12.jpg",
-    Model: "Kawasaki Z900",
-    Price: "Rs:560,000/-",
+    pic: "/images/pic15.jpg",
+    Model: "Kawasaki H2",
+    Price: "Rs:380,000/-",
     
-    EngineDis: " 750 CC Double Cylinder",
+    EngineDis: " 1000 CC Double Cylinder Cylinder",
     MaxPower: "47.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
     FuelSyestem: "Electrical Fuel Injection (EFI)",
     MaxSpeed: "200 Km/H",
     Condition: "New",
-    FuelCapacity: "16 Litre",
+    FuelCapacity: "12 Litre",
     SellerCellNo: "0315-1234567"
 
 
   },
   {
     id: 12,
-    pic: "/images/pic13.jpg",
-    Model: "Yahmaha MT-07",
-    Price: "Rs:230,000/-",
+    pic: "/images/pic16.jpg",
+    Model: "Kawasaki H2",
+    Price: "Rs:380,000/-",
     
-    EngineDis: " 250 CC Single Cylinder",
+    EngineDis: " 600 CC Double Cylinder",
     MaxPower: "47.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
     FuelSyestem: "Electrical Fuel Injection (EFI)",
     MaxSpeed: "200 Km/H",
-    Condition: "Used",
+    Condition: "New",
     FuelCapacity: "15 Litre",
     SellerCellNo: "0315-1234567"
 
@@ -268,96 +268,27 @@ const listitems = [
   },
   {
     id: 13,
-    pic: "/images/pic14.jfif",
-    Model: "BMW S1000R",
-    Price: "Rs:950,000/-",
+    pic: "/images/pic17.jpg",
+    Model: "Suziku GXR",
+    Price: "Rs:380,000/-",
     
-    EngineDis: " 600 CC Double Cylinder",
+    EngineDis: " 650 CC Single Cylinder",
     MaxPower: "47.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
     FuelSyestem: "Electrical Fuel Injection (EFI)",
     MaxSpeed: "200 Km/H",
     Condition: "Used",
-    FuelCapacity: "15 Litre",
+    FuelCapacity: "13 Litre",
     SellerCellNo: "0315-1234567"
 
 
   },
   {
     id: 14,
-    pic: "/images/pic15.jfif",
-    Model: "Yamaha MT-10",
-    Price: "Rs:1650,000/-",
-    
-    EngineDis: " 600 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
-    TyresSize: "160/70-17 120/70-17",
-    Brakes: "ABS Disk Breaks",
-    FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
-    Condition: "Used",
-    FuelCapacity: "15 Litre",
-    SellerCellNo: "0315-1234567"
-
-
-  },
-  {
-    id: 15,
-    pic: "/images/pic16.jpg",
-    Model: "Ducati 797",
-    Price: "Rs:950,000/-",
-    
-    EngineDis: " 600 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
-    TyresSize: "160/70-17 120/70-17",
-    Brakes: "ABS Disk Breaks",
-    FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
-    Condition: "New",
-    FuelCapacity: "11 Litre",
-    SellerCellNo: "0315-1234567"
-
-
-  },
-  {
-    id: 16,
-    pic: "/images/pic17.jfif",
-    Model: "Honda CBR 500",
-    Price: "Rs:375,000/-",
-    
-    EngineDis: " 350 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
-    TyresSize: "160/70-17 120/70-17",
-    Brakes: "ABS Disk Breaks",
-    FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
-    Condition: "Used",
-    FuelCapacity: "15 Litre",
-    SellerCellNo: "0315-1234567"
-
-
-  },
-  {
-    id: 17,
     pic: "/images/pic18.jpg",
-    Model: "Honda CBR 150",
-    Price: "Rs:250,000/-",
-    EngineDis: " 600 CC Double Cylinder",
-    MaxPower: "47.5 Hp",
-    TyresSize: "160/70-17 120/70-17",
-    Brakes: "ABS Disk Breaks",
-    FuelSyestem: "Electrical Fuel Injection (EFI)",
-    MaxSpeed: "200 Km/H",
-    Condition: "New",
-    FuelCapacity: "15 Litre",
-    SellerCellNo: "0315-1234567"
-  },
-  {
-    id: 18,
-    pic: "/images/pic19.jfif",
-    Model: "Yamaha R3 Replica",
-    Price: "Rs:390,000/-",
+    Model: "Kawasaki H2",
+    Price: "Rs:380,000/-",
     
     EngineDis: " 1000 CC Double Cylinder",
     MaxPower: "47.5 Hp",
@@ -372,20 +303,39 @@ const listitems = [
 
   },
   {
-    id: 19,
-    pic: "/images/pic20.jfif",
-    Model: "Suzuki GSX-R",
-    Price: "Rs:890,000/-",
+    id: 15,
+    pic: "/images/pic 19.jpg",
+    Model: "NINJA ZX",
+    Price: "Rs:980,000/-",
     
-    EngineDis: " 400 CC Double Cylinder",
+    EngineDis: " 850 CC Single Cylinder",
     MaxPower: "47.5 Hp",
     TyresSize: "160/70-17 120/70-17",
     Brakes: "ABS Disk Breaks",
     FuelSyestem: "Electrical Fuel Injection (EFI)",
     MaxSpeed: "200 Km/H",
     Condition: "Used",
-    FuelCapacity: "15 Litre",
+    FuelCapacity: "14 Litre",
     SellerCellNo: "0315-1234567"
+
+
+  },
+  {
+    id: 16,
+    pic: "/images/pic20.jpg",
+    Model: "Kawasaki H2",
+    Price: "Rs:780,000/-",
+    
+    EngineDis: " 250 CC Single Cylinder",
+    MaxPower: "47.5 Hp",
+    TyresSize: "160/70-17 120/70-17",
+    Brakes: "ABS Disk Breaks",
+    FuelSyestem: "Electrical Fuel Injection (EFI)",
+    MaxSpeed: "200 Km/H",
+    Condition: "New",
+    FuelCapacity: "17 Litre",
+    SellerCellNo: "0315-1234567"
+
 
   },
   
