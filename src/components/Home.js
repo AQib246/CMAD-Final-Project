@@ -89,7 +89,7 @@ class Home extends Component {
 
         <NavBar />
 </div>
-                      {/* Search Bar */}
+                     
          <div class="wrap">
     <div class="search">
        <input type="text" class="searchTerm" placeholder="Search Bike" onChange={this.searchHandle}/>
@@ -102,7 +102,7 @@ class Home extends Component {
 
         <Container  >
           <Row>
-                     {/* Home */}
+                     
             {filteredItem .map((listitem) => (
               <Col sm="6" md="6" lg="4" key={listitem.id}>
                 

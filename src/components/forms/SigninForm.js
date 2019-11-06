@@ -33,7 +33,7 @@ handleEmail = (val) => {
       
     firebase.auth().createUserWithEmailAndPassword(this.state.email,this.state.password).then(()=>{
 
-        alert("signed up")
+        alert("You are successfully signed up")
     }).catch((err)=>{
         alert(err)
     })
