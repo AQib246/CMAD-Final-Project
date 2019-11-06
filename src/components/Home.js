@@ -106,12 +106,17 @@ class Home extends Component {
             {filteredItem .map((listitem) => (
               <Col sm="6" md="6" lg="4" key={listitem.id}>
                 
-             
+             <div className = "cardimg">
                 <Card className = "Card" style = {{backgroundColor:"black" }} onClick={() => this.showDetail(listitem)}  >
                  <CardImg  src={listitem.pic} alt="Card image cap" className = "CardImg"/> 
+
                   <p className = "ModelName">{listitem.Model}</p>
                   <p  className = "Price">{listitem.Price}</p>
+                  <div className = "overlay">
+                    <div className = "text">+</div>
+                  </div>
                 </Card>
+                </div>
                 
                 
 

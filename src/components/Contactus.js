@@ -35,6 +35,8 @@ class ContactUs extends Component{
             
             submitbtn = () => {
             
+
+            
             if(this.state.val1 == "" || this.state.val2 == "" || this.state.val3 == "")
             {
                 alert("Please fill all the fields.")

@@ -163,7 +163,7 @@ class NavBar extends React.Component {
 
 
               <NavItem>
-                <NavLink><Link to="/" className="NavList">HOME</Link></NavLink>
+                <NavLink active ><Link to="/" className="NavList" active>HOME</Link></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink><Link to="Showroom" className="NavList">SHOWROOM</Link></NavLink>
@@ -182,7 +182,7 @@ class NavBar extends React.Component {
                   </NavLink>
                 </NavItem> :
                 <NavItem>
-                  <NavLink>
+                  <NavLink active>
                   <Link to="login" className="NavList">LOGIN</Link>
                   </NavLink>
                 </NavItem>}
