@@ -375,7 +375,7 @@ class App extends React.Component {
 
   setNewBike=(obj)=>{
 
-    // this.state.data=obj;
+    
     this.newBike(obj);
     // console.log(obj);
 
