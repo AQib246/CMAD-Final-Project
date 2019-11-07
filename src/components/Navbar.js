@@ -122,7 +122,7 @@ class NavBar extends React.Component {
      
 
     }
-    // const [isOpen, setIsOpen ] = useState(false)
+    
   }
   componentDidMount() {
     firebase.auth().onAuthStateChanged((user) => {
@@ -134,7 +134,7 @@ class NavBar extends React.Component {
     })
   }
  
-  // toggle = () => this.state({ isOpen: !this.state.isOpen })
+ 
   HandleLogout = () => {
    firebase.auth().signOut().then(()=>{
      this.setState({
@@ -177,13 +177,13 @@ class NavBar extends React.Component {
               {userTrue ?
                 <NavItem>
                   <NavLink>
-                  <Link to="" className="NavList" onClick={this.HandleLogout} >LOGOUT</Link>
+                  <Link to="login" className="NavList">LOGIN</Link>
 
                   </NavLink>
                 </NavItem> :
                 <NavItem>
                   <NavLink active>
-                  <Link to="login" className="NavList">LOGIN</Link>
+                <Link to="" className="NavList" onClick={this.HandleLogout} >LOGOUT</Link>
                   </NavLink>
                 </NavItem>}
 

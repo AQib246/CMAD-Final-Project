@@ -13,7 +13,7 @@ class Bikeinfo extends React.Component {
             MaxPower: "",
             TyresSize: "",
             Brakes: "",
-            FuelSystem: " ",
+            FuelSystem: "",
             MaxSpeed: "",
             FuelCapacity: "",
             Price: "",
