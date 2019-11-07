@@ -13,13 +13,13 @@ class Bikeinfo extends React.Component {
             MaxPower: "",
             TyresSize: "",
             Brakes: "",
-            FuelSystem: "",
+            FuelSystem: " ",
             MaxSpeed: "",
             FuelCapacity: "",
             Price: "",
             Condition: "",
             Contact: "",
-            image: null,
+            image: "",
             pic: "",
             id: ""
 
@@ -33,16 +33,6 @@ class Bikeinfo extends React.Component {
         })
 
     }
-
-
-    Submitform = () => {
-    this.uploadHandle(()=>{
-        this.props.setNewBike(this.state)
-        alert("Your Bike Added Successfully.")
-        {this.props.history.push("/")}
-    })
-
-    }
     changeHandle = (event) => {
         if (event.target.files[0]) {
             const image = event.target.files[0]
@@ -52,6 +42,7 @@ class Bikeinfo extends React.Component {
         }
 
     }
+
     uploadHandle = (funct) => {
         const { image } = this.state;
 
@@ -61,6 +52,7 @@ class Bikeinfo extends React.Component {
             (snapshot) => {
             },
             (error) => {
+                console.log(error)
             },
             () => {
                 storage.ref("images").child(image.name).getDownloadURL().then(url => {
@@ -70,6 +62,29 @@ class Bikeinfo extends React.Component {
 
             })
     }
+
+    Submitform = () => {
+        const {Model , EngineDis , MaxPower , TyresSize , Brakes  , MaxSpeed , FuelCapacity , Price , Condition , Contact , FuelSystem  , image} = this.state
+        if(Model == "" || EngineDis == ""  || MaxPower == ""  || TyresSize == "" || FuelSystem == "" || Brakes == ""   || MaxSpeed == "" || FuelCapacity == "" || Price == ""  || Condition == ""  || Contact === "" || image == "" ){
+            alert("Please fill all the Fields.")
+        }
+    
+    this.uploadHandle(()=>{
+      
+   
+
+        this.props.setNewBike(this.state)
+        
+        alert("Your Bike Added Successfully.")
+        {this.props.history.push("/")}
+        
+
+    })
+    }
+
+    
+  
+    
     render() {
         return (
             <div >
@@ -100,7 +115,7 @@ class Bikeinfo extends React.Component {
                     onChange={this.HandlerEvent}
                 /></label>
 
-                <label> <span>Fuel Syestem:</span> <input type="text" class="input-field" name="FuelSystem" value={this.state.FuelSyestem}
+                <label> <span>Fuel Syestem:</span> <input type="text" class="input-field" name="FuelSystem" value={this.state.FuelSystem}
                     onChange={this.HandlerEvent}
                 /></label>
 
