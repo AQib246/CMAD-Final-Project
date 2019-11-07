@@ -36,7 +36,7 @@ const listitems = [
   {
     id: 0,
     pic: "/images/pic1.jpg",
-    Model: "Ninja H2",
+    Model: "Honda CBR",
     Price: "Rs:850,000/-",
     EngineDis: " 1000 CC Double Cylinder",
     MaxPower: "47.5 Hp",
@@ -89,7 +89,7 @@ const listitems = [
   {
     id: 3,
     pic: "/images/pic4.jpg",
-    Model: "Yamaha R1",
+    Model: "Yamaha R6",
     Price: "Rs:680,000/-",
     
     EngineDis: " 250 CC Single Cylinder",
@@ -106,7 +106,7 @@ const listitems = [
   },
   {
     id: 4,
-    pic: "/images/pic12.jpg",
+    pic: "/images/pic15.jpg",
     Model: "Suzuki GSXR",
     Price: "Rs:450,000/-",
     
@@ -124,7 +124,7 @@ const listitems = [
   },
   {
     id: 5,
-    pic: "/images/pic 9.jpg",
+    pic: "/images/pic54.jpg",
     Model: "Kawasaki H2R",
     Price: "Rs:380,000/-",
     
@@ -142,8 +142,8 @@ const listitems = [
   },
   {
     id: 6,
-    pic: "/images/pic7.jpg",
-    Model: "Kawasaki H2",
+    pic: "/images/pic6.jpg",
+    Model: "Yamaha MT-09",
     Price: "Rs:380,000/-",
     
     EngineDis: " 250 CC Single Cylinder",
@@ -160,8 +160,8 @@ const listitems = [
   },
   {
     id: 7,
-    pic: "/images/pic8.jpg",
-    Model: "Kawasaki H2",
+    pic: "/images/pic7.jpg",
+    Model: "Kawasaki Z900",
     Price: "Rs:380,000/-",
     
     EngineDis: " 1000 CC Double Cylinder",
@@ -178,7 +178,7 @@ const listitems = [
   },
   {
     id: 8,
-    pic: "/images/pic13.jpg",
+    pic: "/images/pic8.jpg",
     Model: "Ducati 600",
     Price: "Rs:50,000/-",
     
@@ -197,7 +197,7 @@ const listitems = [
   {
     id: 9,
     pic: "/images/pic10.jpg",
-    Model: "Kawasaki H2R",
+    Model: "Ninja ZX6R",
     Price: "Rs:2080,000/-",
     
     EngineDis: " 1000 CC Dounle Cylinder",
@@ -214,7 +214,7 @@ const listitems = [
   },
   {
     id: 10,
-    pic: "/images/pic14.jpg",
+    pic: "/images/pic12.jpg",
     Model: "BMW 1000RR",
     Price: "Rs:155,000/-",
     
@@ -232,8 +232,8 @@ const listitems = [
   },
   {
     id: 11,
-    pic: "/images/pic15.jpg",
-    Model: "Kawasaki H2",
+    pic: "/images/pic13.jpg",
+    Model: "Honda CBR 1000RR",
     Price: "Rs:380,000/-",
     
     EngineDis: " 1000 CC Double Cylinder Cylinder",
@@ -250,8 +250,8 @@ const listitems = [
   },
   {
     id: 12,
-    pic: "/images/pic16.jpg",
-    Model: "Kawasaki H2",
+    pic: "/images/pic14.jpg",
+    Model: "Yamaha R1",
     Price: "Rs:380,000/-",
     
     EngineDis: " 600 CC Double Cylinder",
@@ -268,7 +268,7 @@ const listitems = [
   },
   {
     id: 13,
-    pic: "/images/pic17.jpg",
+    pic: "/images/pic15.jpg",
     Model: "Suziku GXR",
     Price: "Rs:380,000/-",
     
@@ -286,7 +286,7 @@ const listitems = [
   },
   {
     id: 14,
-    pic: "/images/pic18.jpg",
+    pic: "/images/pic16.jpg",
     Model: "Kawasaki H2",
     Price: "Rs:380,000/-",
     
@@ -304,7 +304,7 @@ const listitems = [
   },
   {
     id: 15,
-    pic: "/images/pic 19.jpg",
+    pic: "/images/pic17.jpg",
     Model: "NINJA ZX",
     Price: "Rs:980,000/-",
     
@@ -322,8 +322,8 @@ const listitems = [
   },
   {
     id: 16,
-    pic: "/images/pic20.jpg",
-    Model: "Kawasaki H2",
+    pic: "/images/pic18.jpg",
+    Model: "Yamaha R6",
     Price: "Rs:780,000/-",
     
     EngineDis: " 250 CC Single Cylinder",
@@ -381,6 +381,7 @@ class App extends React.Component {
 
   }
   writeInFirebase=()=>{
+  
     firebase.database().ref('data2').set(this.state.listitems);
   }
   
