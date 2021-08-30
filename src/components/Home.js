@@ -5,7 +5,9 @@ import { Link, Redirect } from "react-router-dom";
 import firebase from "firebase";
 import Bikeinfo from "./forms/AddBikeInfo";
 import "./Styling/searchBarstyle.css";
-import "./Styling/addbikebtnstyle.css"
+import "./Styling/addbikebtnstyle.css";
+import Example from "./Slider";
+import Additional from "./additional";
 import {
   Container, Row, Col, Modal, Button, ModalHeader, ModalFooter, ModalBody, Card,
   CardImg, CardText, CardBody, CardTitle, CardSubtitle, Label, Input, Form, FormGroup
@@ -88,6 +90,9 @@ class Home extends Component {
 <div style={{position:"fixed",width:'100%',zIndex:2}}>
 
         <NavBar />
+    
+        {/* <Example/> */}
+        
 </div>
                       {/* Search Bar */}
          <div class="wrap">
@@ -101,7 +106,7 @@ class Home extends Component {
         <br/><br/>
 
         <Container  >
-          <Row>
+          <Row  className = "card_rows" style = {{width: "88%" , margin:"auto"}}>
                      {/* Home */}
             {filteredItem .map((listitem) => (
               <Col sm="6" md="6" lg="4" key={listitem.id}>
@@ -163,6 +168,7 @@ class Home extends Component {
         
         </div>
       
+        <Additional />
         <Footer />
       </div>
 

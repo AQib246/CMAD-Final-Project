@@ -60,9 +60,14 @@ body{
 font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+
+
+
+/* ...........NAvbarStyling.......... */
 .NavList {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration-line: none;
   
   
 
@@ -75,4 +80,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration:none;
   padding: 6px;
   }
+
+  .NavList{
+    font-size: 18px;
+  }
+
+  .navbar-nav {
+
+    margin-left: 62%;
+    
+}
    

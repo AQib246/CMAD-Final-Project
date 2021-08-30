@@ -19,7 +19,7 @@ const AboutUs = () => {
         <div style = {{backgroundColor:"#ffd700" , color:"white"}}>
         <br/><br/><br/><br/>
         <h1 className = "About" >About Us</h1>
-        <hr style = {{width:"50%" , border: "1px solid black"}}/>
+        <hr style = {{width:"50%" , border: "1px solid black" , margin:"auto"}}/>
         <br/>
         <Container  width = "100%"> 
             <Row>

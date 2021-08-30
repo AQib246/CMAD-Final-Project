@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^5.0.1",
     "email-validator": "^2.0.4",
     "firebase": "^7.2.1",
     "font-awesome": "^4.7.0",
@@ -17,7 +17,6 @@
     "react-scripts": "3.2.0",
     "react-with-important-style": "^0.2.2",
     "reactstrap": "^8.0.1"
-    
   },
   "scripts": {
     "start": "react-scripts start",

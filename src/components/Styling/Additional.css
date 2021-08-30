@@ -1,0 +1,83 @@
+:root{
+    --maincol: #ffd700;
+    --bgcol: #181a1c;
+}
+.flex{display: flex;}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.margin{margin-left: auto;
+margin-right: auto;}
+.news{
+    padding: 5rem auto;
+    color: white;
+}
+.newsletter{
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+    background-position-y: center;
+}
+#button{
+    background-color: var(--maincol);
+    border: none;
+}
+
+#button:hover{
+    opacity: 0.9; 
+}
+#email{
+    border:none; 
+    width: 50vw;
+    margin: 0 0.5rem 1rem 0;
+}
+input{ 
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.newshead{
+    font-size: 1.75rem;
+    color: var(--maincol);
+}
+.col1{background-color: black;}
+.order{
+    background-color: var(--maincol);
+    padding: 4rem 0 3rem 0;
+}
+#OrderN{text-align: center;
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+.facts{
+    padding: 2rem;
+    background-color: var(--bgcol);
+}
+.additional_sec_img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+.additional_sec_img_card:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1    ); 
+}
+.col-sm{
+    padding: 0.5rem;
+    border: 1px white solid;        
+    margin: 0 1rem 1rem 2rem;
+}
+.textf{
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0.5rem;
+    color: var(--maincol);
+}

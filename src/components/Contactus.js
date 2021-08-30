@@ -57,7 +57,7 @@ class ContactUs extends Component{
   <h1 style = {{textAlign : "center" , color:"black" , marginTop:"2%"}}>Contact Us</h1> 
   <br/>
   <h5 style = {{textAlign : "center" , color:"black"  }}> <i>Feel Free to Contact Us Any Time: 0312-1233356</i></h5>
-  <hr style = {{width:"50%" , border: "1px solid black"}} />
+  <hr style = {{width:"50%" , border: "1px solid black" , margin:"auto"}} />
   <div className="form-style-8">
    <h2>Say Hello</h2>
       <form  onSubmit = {this.submitbtn}  >

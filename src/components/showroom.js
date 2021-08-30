@@ -22,7 +22,7 @@ const Showroom = () => {
         <div style = {{width: "100%" , color:"white"}}>
             <br/><br/><br/>
             <h1 style = {{textAlign:"center" , marginTop:"2%"}}>Our Showrooms</h1> 
-            <hr style = {{width:"50%" , border:"1px solid black"}}/>
+            <hr style = {{width:"50%" , border:"1px solid black" , margin:"auto"}}/>
             <br/> <br/> 
             <Container >
                 <Row>

@@ -1,5 +1,5 @@
 import React , {Component} from 'react';
-import Logo from "../images/shelby3.png";
+import Logo from "../images/shelby3.png";   
 import { Container, Row, Col } from 'reactstrap';
 import { Button } from 'reactstrap';
 import  AboutUs from "./AboutUs";
@@ -37,7 +37,7 @@ class Footer extends Component  {
               <Button color="danger"><Link to  = "About" style = {{color:"white" , textDecoration:"none"}}>Read More </Link></Button>         
               </Col>
               <Col lg = "3"   md = "6" sm = "6" style = {{marginTop: "1%"}}>
-                  <h2 style = {{ color : "white"}}>Quick Links</h2>
+                  <h3 style = {{ color : "white"}}>Quick Links</h3>
                         <ul>
                         <li ><Link to = "/" className = "QuickList">Home </Link></li>
                         <li><Link to = "About" className = "QuickList">About</Link></li>
@@ -48,7 +48,7 @@ class Footer extends Component  {
         </Col>
                  
         <Col lg = "3"   md = "6" sm = "6" style = {{marginTop: "1%"}}>
-            <h2 style = {{ color : "white"}}>Contact Us</h2>
+            <h3 style = {{ color : "white"}}>Contact Us</h3>
             <p><strong>Addrress:</strong> Shop No. 3 & 4 Jinnah Market Khayaban-e-Jami,
              Phase II Exist, Near DHA Suffa
                University, DHA, Karachi, Pakistan</p>
@@ -56,7 +56,7 @@ class Footer extends Component  {
             <p><strong>Phone:</strong> 0312-1233356</p>
         </Col>
         <Col lg = "3"   md = "6" sm = "6"  style = {{marginTop: "1%"}}>
-            <h2 style = {{ color : "white"}}>Social Links</h2>
+            <h3 style = {{ color : "white"}}>Social Links</h3>
             <ul style = {{textDecorationLine:"none"}}>
                            
   <li><a href= "https://www.facebook.com/ebike.pk/" target="_blank" ><i class="fa fa-2x fa-facebook "></i></a> </li> 
@@ -68,7 +68,7 @@ class Footer extends Component  {
         </Col> 
             </Row >
             <p className = "End">© 2019 Copyright by Shelbymotors All rights reserved.</p>
-            <p className = "End">Made by Muhammad AQib.</p>
+            <p className = "End">Made by Muhammad AQib , Syeda Alwara and Amna Nadeem</p>
            
                      </Container >
         

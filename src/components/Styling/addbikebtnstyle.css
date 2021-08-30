@@ -11,10 +11,12 @@
     cursor: pointer;
     border-radius:  50px;
     width: 180px;
+    text-decoration-line: none;
     
     
     }
     .example_e:hover {
+        width: 200px;
         color: #404040 !important;
         font-weight: 800 !important;
         letter-spacing: 2px;
@@ -65,6 +67,8 @@ span{
 
 
 
+
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -98,3 +102,10 @@ span{
     
 	
         
+  @media screen and (max-width:1399px)
+  {
+      .card_rows{
+
+        width: auto !important;
+      }
+  }

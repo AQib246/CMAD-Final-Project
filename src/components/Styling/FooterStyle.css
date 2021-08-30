@@ -12,7 +12,6 @@
     color: #e4405f;
     
   }
-
   .fa-youtube:hover {
     color: #cd201f;
     
@@ -34,6 +33,7 @@
   }
   .QuickList{
     color: white;
+    text-decoration-line: none;
   }
   .QuickList:hover{
      text-decoration: none;
